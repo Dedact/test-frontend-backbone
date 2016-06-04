@@ -12,6 +12,8 @@ In [subjects.csv](subjects.csv) you will find a list of subjects that are part o
     - ...
 - ...
 
+Subjects with `parent_subject_id === 0` are in the top of the hierarchical tree, and subjects with `parent_subject_id !== 0` have the subject with that `id` as their parent.
+
 All sources, tasks and questions available in Learnbeat have one or more subjects attached. That makes searching for learning material easy. 
 
 ## Test
