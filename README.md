@@ -1,4 +1,4 @@
-#Frontend BackboneJS Test - Tree structure of subjects
+# Frontend BackboneJS Test: Tree structure of subjects
 
 In [subjects.csv](subjects.csv) you will find a list of subjects that are part of our History learning method (_Leswijs Geschiedenis_). These subjects have a hierarchical structure: subjects can have _sub_-subjects that are more detailed. For example:
 
