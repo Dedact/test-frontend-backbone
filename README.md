@@ -1,7 +1,8 @@
 #Frontend BackboneJS Test - Tree structure of subjects
 
-In [subjects.csv](subjects.csv) you will find a list of subjects that are part of our History learning method (_Leswijs Geschiedenis_). These subjects have a hierarchical structure: subjects can have _sub_-subjects that are more detailed. F.e.:
+In [subjects.csv](subjects.csv) you will find a list of subjects that are part of our History learning method (_Leswijs Geschiedenis_). These subjects have a hierarchical structure: subjects can have _sub_-subjects that are more detailed. For example:
 
+```
 - Tijd van jagers en boeren
   - De eerste mensen
     - Evolutietheorie
@@ -11,6 +12,7 @@ In [subjects.csv](subjects.csv) you will find a list of subjects that are part o
     - De cultuur van de Egyptenaren
     - ...
 - ...
+```
 
 Subjects with `parent_subject_id === 0` are in the top of the hierarchical tree, and subjects with `parent_subject_id !== 0` have the subject with that `id` as their parent.
 
@@ -18,7 +20,7 @@ All sources, tasks and questions available in Learnbeat have one or more subject
 
 ## Test
 
-Use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_ to create an interactive tree to select one or more subjects, so that it can be used by teachers to find learning material with those subjects.
+Use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_ to create an interactive tree to select one or more subjects, so that it can be used by teachers to find learning material with those subjects. In the example above the user should be able to select for example *Homo sapiens* and *Egyptenaren* to find all learning material that is about those subjects.
 
 ## Assessment
 
