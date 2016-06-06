@@ -19,15 +19,17 @@ For example:
 
 All learning material available in Learnbeat have one or more subjects attached. 
 That makes filtering for learning material easy. 
-The goal of this test is to make a tool for teachers to use when filtering learning material on subject. 
-Instead of showing all the subjects available, display them using the hierarchical structure.
-Show a interactive subject tree based on the subjects in [subjects.csv](subjects.csv) select multiple subjects in the tree
+
+## Use case for this test
+
+A teacher is looking for learning material and has some notion of what the learning material should be about.
+The teacher is unaware of the precise subjects that we have in our database. 
+The teacher should be able to select multiple subject for which he/she would like to see the learning material. 
 
 ## Test
 
-1. Use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_ to create an interactive tree 
-to select one or more subjects, 
-so that it can be used by teachers to filter our learning material based on those subjects.  
+1. Use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_ to create a tool for teacher to use to select one or more subjects (from [subjects.csv](subjects.csv)), 
+so that it can be used by teachers to filter our learning material.  
 _In the example above the user should be able to select for example *Homo sapiens* and *Egyptenaren* 
 to find all learning material that is about those subjects._
 2. Make a separate list of the selected subjects. This is the list that would be send to a backend service to retrieve learning material on those subjects.
