@@ -27,11 +27,9 @@ Show a interactive subject tree based on the subjects in [subjects.csv](subjects
 
 1. Use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_ to create an interactive tree 
 to select one or more subjects, 
-so that it can be used by teachers to filter our learning material based on those subjects. 
-
+so that it can be used by teachers to filter our learning material based on those subjects.  
 _In the example above the user should be able to select for example *Homo sapiens* and *Egyptenaren* 
 to find all learning material that is about those subjects._
-
 2. Make a separate list of the selected subjects. This is the list that would be send to a backend service to retrieve learning material on those subjects.
 
 ## Assessment
