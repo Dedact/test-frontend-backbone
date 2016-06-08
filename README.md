@@ -1,6 +1,6 @@
 # Frontend BackboneJS Test: Tree structure of subjects
 
-In [subjects.csv](subjects.csv) you will find a list of subjects that are part of our History learning method (_Leswijs Geschiedenis_). 
+In [subjects.csv](subjects.csv) (also available as [subjects.json](subjects.json) you will find a list of subjects that are part of our History learning method (_Leswijs Geschiedenis_). 
 These subjects have a hierarchical structure: subjects can have _sub_-subjects that are more detailed. 
 Subjects with `parent_subject_id === 0` are in the top of the hierarchical tree, and subjects with `parent_subject_id !== 0` have the subject with that `id` as their parent.
 For example:
