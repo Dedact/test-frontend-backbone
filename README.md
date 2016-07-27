@@ -17,7 +17,7 @@ For example:
 - ...
 ```
 
-All learning material available in Learnbeat have one or more subjects attached. 
+All learning material available in Learnbeat has one or more subjects attached. 
 That makes filtering for learning material easy. 
 
 ## Use case for this test
@@ -28,7 +28,7 @@ The teacher should be able to select multiple subject for which he/she would lik
 
 ## Test
 
-1. Create a tool for teacher to use to select one or more subjects (from [subjects.csv](subjects.csv)), 
+1. Create a tool for teacher to use to select one or more subjects (from [subjects.csv](subjects.csv) or [subjects.json](subjects.json)), 
 so that it can be used by teachers to filter our learning material.  
 In the example above the user should be able to select for example *Homo sapiens* and *Egyptenaren* to find all learning material that is about those subjects.
 2. Make a separate list of the selected subjects. This is the list that would be send to a backend service to retrieve learning material on those subjects.
