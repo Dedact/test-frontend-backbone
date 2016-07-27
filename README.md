@@ -1,4 +1,4 @@
-# Frontend BackboneJS Test: Tree structure of subjects
+# Frontend Development Test: Tree structure of subjects
 
 In [subjects.csv](subjects.csv) (also available as [subjects.json](subjects.json)) you will find a list of subjects that are part of our History learning method (_Leswijs Geschiedenis_). 
 These subjects have a hierarchical structure: subjects can have _sub_-subjects that are more detailed. 
@@ -28,10 +28,13 @@ The teacher should be able to select multiple subject for which he/she would lik
 
 ## Test
 
-1. Use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_ to create a tool for teacher to use to select one or more subjects (from [subjects.csv](subjects.csv)), 
+1. Create a tool for teacher to use to select one or more subjects (from [subjects.csv](subjects.csv)), 
 so that it can be used by teachers to filter our learning material.  
 In the example above the user should be able to select for example *Homo sapiens* and *Egyptenaren* to find all learning material that is about those subjects.
 2. Make a separate list of the selected subjects. This is the list that would be send to a backend service to retrieve learning material on those subjects.
+
+## Frameworks
+You can use any _framework_ (VanillaJS, AngularJS, EmberJS, ReactJS, BackboneJS, ...) to get this done. Please don't use jQuery plugins (at Dedact we use [BackboneJS](http://backbonejs.org/) and its _events_, _models_ and _collections_).
 
 ## Assessment
 
